@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
 //= require rhohub-overlay
 //= require bootstrap-additions
 //= require jquery.selectboxes.pack
@@ -28,7 +27,6 @@
 //= require jquery-ui-min
 //= require rho_gallery/ajaxfileupload
 //= require upload-at-click
-//= require best_in_place
 //= require rhohub-login
 //= require rhohub-purchase
 //= require charges

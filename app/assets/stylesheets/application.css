@@ -12,7 +12,6 @@
  *
  #*= require_tree .
  *= require style.css.erb
- *= require bootstrap_and_overrides.css.less
  *= require jquery.alerts
  *= require jquery-ui
  *= require jquery.jscrollpane
@@ -21,7 +20,6 @@
  *= require bootstrap-additions
  *= require twitter/responsive
  *= require docs
- *= require font-awesome
  *= require bootstrap-social
  *= require layout.css
  #*= require_self
