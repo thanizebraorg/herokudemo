@@ -12,5 +12,24 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require twitter/bootstrap
+//= require rhohub-overlay
+//= require bootstrap-additions
+//= require jquery.selectboxes.pack
+//= require jquery.stateselect
+//= require jquery.alerts
+//= require rhohub-modal
+//= require rhohub-dyn-popovers
+//= require jquery.jscrollpane
+//= require jquery.uploadify.v2.1.0
+//= require swfobject
+//= require jquery.zrssfeed
+//= require si
+//= require jquery-ui-min
+//= require rho_gallery/ajaxfileupload
+//= require upload-at-click
+//= require best_in_place
+//= require rhohub-login
+//= require rhohub-purchase
+//= require charges
+//= require jquery-qr
