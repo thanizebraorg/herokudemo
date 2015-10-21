@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: herokudemo_production
-  username: herokudemo
-  password: <%= ENV['HEROKUDEMO_DATABASE_PASSWORD'] %>
+  database: herokudemo_development
+#  database: herokudemo_production
+#  username: herokudemo
+#  password: <%= ENV['HEROKUDEMO_DATABASE_PASSWORD'] %>
