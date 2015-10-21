@@ -1,0 +1,14 @@
+body, html{
+  height: 100%;
+}
+.main-wrapper{
+  min-height: 100%;
+  margin-bottom: -270px;
+}
+.main-wrapper .container{
+  padding-bottom: 270px;
+}
+
+.main-wrapper .container #main-container{
+  padding-bottom: 20px;
+}

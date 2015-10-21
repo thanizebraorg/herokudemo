@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* ----------------------------
+
+/* General Classes
+ ============================================================ */
+.clearfix:after { 
+  content:"."; 
+  display:block; 
+  height:0; 
+  clear:both; 
+  visibility:hidden; 
+}
+.clearfix { 
+  display:inline-block; 
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height:1%; 
+}
+.clearfix { 
+  display:block; 
+}
+
+p{
+	margin-bottom:10px;
+}
+
+a{
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#333;
+	text-decoration:none;
+}
+
+
+/* Body
+============================================================ */
+body {
+ 	background:#FFF;
+	color:#333;
+	font-family:Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+/* Wrapper
+ ============================================================ */
+ #wrapper {
+ 	width:100%;
+ }
+
+/* Header
+============================================================ */
+#header {
+	background:url('../../bg-header.gif') repeat;
+	height:44px;
+	text-align:center;
+}
+ 
+/* Content
+============================================================ */
+#heading{
+	background:#EEE;
+	border-bottom:1px solid #DCDCDC;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.4;
+	padding:15px 30px;
+}
+
+#content{
+	padding:10px 30px 30px;
+}
+
+#nav td{
+	height:10px;
+}
+
+#nav td a{
+	display:block;
+}
+
+#nav td.icon{
+	background:#EEE;
+	height:30px;
+	-webkit-border-top-left-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	text-align:center;
+	width:40px;
+}
+
+#nav td.text{
+	background:#EEE;
+	height:40px;
+	-webkit-border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+}
+
+#nav img{
+	vertical-align:middle;
+}

@@ -1,0 +1,114 @@
+/* Toolbar background */
+.toolbar {
+    background: url("../mobile/toolbar.png") #111111 repeat-x;
+}
+
+/* Toolbar text */
+.toolbar > h1 {
+	color: #BCBCBC;
+	font-size: 19px;
+	font-weight: bold;
+	font-style: normal;
+}
+/* end toolbar */
+
+/* background color */
+body, body > * {
+	background-color: white;
+}
+
+
+/* gallery background */
+ul li.arrow {
+    background:url("../mobile/li_back.jpg") repeat-x scroll right center transparent
+}
+
+/* gallery name text */
+span.title {
+	color:#000000;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* gallery description text */
+.description {
+	color:#6E6E6E;
+	font-size:12px;
+	font-weight:normal;
+	font-style: normal;
+}
+
+/* application title */
+.app_info .title {
+    color:red;
+    font-size:15px;
+    font-weight:normal;
+    font-style: normal;
+}
+
+/* application version */
+.app_info .version {
+    color:#868686;
+    font-size:12px;
+	font-weight:normal;
+	font-style: normal;
+}
+
+/* application description */
+.app_info p {
+    color:#666;
+    font-size:12px;
+	font-weight:normal;
+	font-style: normal;
+}
+
+/* application background */
+ul.app_list li {
+	background: #E9E9E9;
+	border: 1px solid black;
+}
+
+
+/* account, settings header background */
+.info_box .info_header {
+	background: none repeat scroll 0% 0% #8fb83d;
+}
+
+/* account, settings header text */
+.info_header .summary_title {
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* account label text */
+.info_item .summary_title {
+	color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* account summary  */
+.info_item .summary {
+	color:#ABABAB;
+	font-size:13px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+
+/* settings link background */
+ul.info_box li.arrow {
+    background:url("/public/images/li_back.jpg") repeat-x scroll right center transparent
+}
+
+/* settings link text */
+ul.info_box li.arrow a .summary {
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+}

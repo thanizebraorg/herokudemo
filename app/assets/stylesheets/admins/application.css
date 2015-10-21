@@ -1,0 +1,7 @@
+/*
+ *
+ *= require ./scaffolds
+ *= require token-input-facebook
+ *= require_tree .
+ *= require_self
+ */

@@ -1,0 +1,52 @@
+body{
+  min-height: 100%;
+}
+#yield_container{
+	background:none repeat scroll 0 0 #FFFFFF;
+	overflow:hidden;
+	padding:17px 17px 30px;	
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+}
+#error_body{
+	margin-top:80px;
+}
+
+#error_body .error_box{
+	height:134px;
+	margin:0 auto;
+	width:956px;
+}
+#error_body #e_422{
+	background:url("../assets/dashboard/422.png") no-repeat scroll left top transparent;
+}
+#error_body #e_404{
+	background:url("../assets/dashboard/404.png") no-repeat scroll left top transparent;
+}
+#error_body #e_500{
+	background:url("../assets/dashboard/500.png") no-repeat scroll left top transparent;
+}
+#error_body .error_box .error_text{
+	float:right;
+	margin-right:87px;
+}
+#error_body .error_box .error_text h2{
+	color:#838383;
+	font-size:23px;
+	margin-top:50px;
+}
+#error_body .error_box .error_text p{
+	color:#9D9D9D;
+	font-size:15px;
+	margin-top:6px;
+}
+#error_body .error_box .error_link{
+	color:#AE0302;
+	display:inline-block;
+	margin-top:14px;
+}
+#footer-section{
+  position:fixed;
+  bottom:19px;
+  
+}
