@@ -11,7 +11,9 @@ $()
  */
 var Init = {
   Tooltips: function(){
-    $('a[rel="tooltip"]').tooltip();
+      $(document).on("ready page:change", function() {
+          //$('a[rel="tooltip"]').tooltip();
+      });
   },
   ProjectLinks: function(){
     $('tr.app_listed').click(function(){
@@ -109,7 +111,9 @@ var Init = {
     });
   },
   BestInPlaceInit: function(){
-    $(".best_in_place").best_in_place();
+      $(document).on("ready page:change", function() {
+          //$(".best_in_place").best_in_place();
+      });
   }
 }
 
